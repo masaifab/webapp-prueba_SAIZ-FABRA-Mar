@@ -1,0 +1,37 @@
+// Font families
+$main-font-family: 'Raleway';
+$title-font-family: 'Pacifico';
+$body-font-family: $main-font-family;
+$country-font-family: 'Amatic SC';
+
+// Font sizes
+$font-size-base: 15px;
+$font-size-small: $font-size-base - 3px;
+$font-size-large: $font-size-base + 5px;
+$font-size-h1: $font-size-base + 15px;
+$font-size-h2: $font-size-base + 12px;
+$font-size-h3: $font-size-base + 9px;
+$font-size-h4: $font-size-base + 6px;
+$font-size-h5: $font-size-base + 3px;
+$font-size-h6: $font-size-base;
+
+// Base colors
+$color-1: rgb(122, 47, 145);
+$color-2: rgb(65, 71, 73);
+$color-3: #FDAA10;
+$color-4: #ffffff;
+$color-5: rgb(204, 204, 204);
+
+// Main components colors
+$main-text-color: $color-2;
+$links-color: $color-1;
+
+// Responsive
+// 667 iphone landscape. 768 ipad portrait
+$mobile-portrait-width: 414px;
+$mobile-landscape-width: 767px;
+$tablet-portrait-width: $mobile-landscape-width + 1;
+$tablet-landscape-width: 1024px;
+
+// Forms variables
+

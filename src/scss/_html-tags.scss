@@ -1,0 +1,46 @@
+body {
+    background: $color-4;
+    font-family: $main-font-family;
+    font-size: 25;
+    color: $main-text-color;
+
+    padding-top: 60px;
+}
+
+form {
+    padding: 10px;
+}
+
+label, input, button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+input {
+    margin: 5px 0 15px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid; 
+    font-size: 20px;
+}
+
+button {
+    @extend input;
+    font-weight: bold;
+    transition: all 0.25s;
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+.negrita{
+    font-weight: bold;
+}

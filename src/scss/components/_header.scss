@@ -1,0 +1,116 @@
+.web-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    background: $color-4;
+    color: $color-2;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    transition: background 0.2s;
+   padding: 5px 8px 5px 0;
+    &:hover {
+        background: $color-2;
+        color: $color-4;
+        .web-title {
+            color: $color-4;
+        }
+    }
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.web-title {
+    color: transparentize($color-3, 0.5);
+    font-size: $font-size-h1;
+    font-family: $title-font-family;
+    padding-left: 80px;
+    @include if-mobile-portrait {
+        font-size: $font-size-large;
+        color: $color-1;
+        padding-right: 20px;
+        margin-left: -20px; 
+    }
+}
+
+/* #menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        
+        &:active > ul{
+            display: block;
+            
+        }
+    }
+
+    #menu ul li {
+        display: block;
+        position: relative;
+        float: left;
+        padding-left: 40px;
+        
+    }
+    #menu ul ul {
+        display: flex;
+        position: absolute;
+        top: 100%;
+        left: 50px;
+        padding: 0; 
+    }
+    #menu ul ul li {
+        float: none;
+        padding: 0px;
+        width: auto;
+        line-height: 70px;
+        color: $color-2;
+        background-color: $color-4;
+        &:hover {
+            background-color: transparentize($color-1, 0.7);
+        }
+    }*/
+
+.form-search {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -80px;
+    font-size: $font-size-small;
+
+    @include if-mobile-portrait {
+       flex-direction: column;
+       align-items: flex-end;
+        padding-left:60px;
+
+    }
+    @include if-mobile-landscape {
+        flex-direction: column;
+        align-items: flex-end;
+         padding-left:60px;
+    }
+}
+    .busquedas {
+        width: 150px;
+        height: 25px;
+        margin-left: 15px;
+        margin-top: 10px;
+        background: $color-5;
+        font-size: $font-size-small;
+        border: none;
+        @include if-mobile-portrait {
+            width: 70px;
+        }
+    }
+
+
+.form-search:hover {
+    #sign {
+        font-weight: bold;
+        font-size: $font-size-base;
+    }
+}

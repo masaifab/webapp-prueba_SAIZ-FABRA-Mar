@@ -1,0 +1,14 @@
+@import "reset";
+@import "variables";
+@import "html-tags";
+@import "responsive-utils";
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Raleway|Pacifico');
+
+@import "components/header";
+@import "components/container";
+@import "components/trip-list";
+//@import "components/song-form";
+@import "components/portada";
+@import "components/footer";
+//@import "components/footer-fixed";
+@import "components/places";
